@@ -1,50 +1,35 @@
-<!--<div class="container">
-  <div class="row align-items-center">
-        <div class="col-1">
-        <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%> 
-        </div>
-        <div class="col"> 
-          <p>Mon Eventments</p>
-          <h6>Vous avez invite</h6>
-        </div>
+<div class="container">
+  <ul class="list-group-item d-flex ">
+  <li>
+  <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%>
+          <div class="badge badge-circle badge-success ">
+            <div class="d-flex justify-content-center">
+              <%= image_tag("tickle.svg", class:"center-benchmark")%>
+            <div>
+          </div>   
+  </li>
+  <li>
+    <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%>
+    <div class="badge badge-circle badge-success ">
+        <div class="d-flex justify-content-center">
+          <%= image_tag("tickle.svg", class:"center-benchmark")%>
+        <div>
+      </div>
+  </li>
+  <li>
+    <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%>
+    <div class="badge badge-circle badge-success ">
+        <div class="d-flex justify-content-center">
+          <%= image_tag("tickle.svg", class:"center-benchmark")%>
+        <div>
+      </div>
+  </li>
   </div>
-    
+</ul>
 
-  <div class="row">
-    
- 
-     <% 5.times do %>
-      <a href="#" > 
-        <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar4 border")%>
-     
-        <sub><span class="badge badge-circle badge-success">✓</span></sub>
 
-      </a>
-     <% end %>
-
-  </div>
-  </div>
-</div>
--->
-
-<div class = "container">
-  <ul class="list-group">
-    <li class="list-group-item d-flex align-items-center">
-
-      <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%>
-        <span class="badge badge-success ml-n2 mt-4">✓</span>
-
-      <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%>
-        <span class="badge badge-success ml-n2 mt-4">✓</span>
-        
-      
-      <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar3 border")%>
-        <div class="badge badge-circle badge-success ml-n2 mt-4">
-          <div class="d-flex justify-content-center">
-            <%= image_tag("tickle.svg", class:"center-benchmark")%>
-          <div>
-        </div>
-
-    </li>
-  </ul>
-</div>
+<style scoped>
+  ul > li{
+    display: inline-block;
+  }
+</style>
