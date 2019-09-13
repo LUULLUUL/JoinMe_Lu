@@ -1,0 +1,14 @@
+.my-primary-blue {
+  color: #289eda;
+}
+
+.my-primary-gradiant {
+  background-image: linear-gradiant(to the right, #130cb7, #5efce8);
+  border: none;
+  color: red;
+}
+
+.p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 250em;
+}

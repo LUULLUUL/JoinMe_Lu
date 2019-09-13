@@ -1,0 +1,101 @@
+
+<div class="container">
+  <div class="row align-items-center" style="height:250px">
+    <div class="col-4">
+        <h6>1.2km</h6>
+        <h4>La Felicità</h4>
+        <p>Bibliothèque François Mitterand</br>
+          Ouvert jusqu’à 01:00
+        </p>
+        <a class="btn btn-primary my-primary-gradient" style="border-radius:5em" 
+        <%= link_to "STUDIEUX", root_path %></a>
+        <a class="btn btn-primary my-primary-gradient" style="border-radius:5em" <%= link_to "ITALIAN FOOD", root_path %></a>      
+    </div>
+    <div class="col">
+            <p>En fait la felicità cest comme un cool food market sauce italienne où on fait la teuf en mangeant des trucs bien bons. </p>
+    </div>
+  </div> 
+</div>
+
+
+<div class="container">
+  <div class="row " style="height:250px">
+
+    <div class="col-2">
+      <h4>Prix</h4>
+    </div>
+    <div class="col">
+      <div class="row align-items-center">
+        <div class="col text-center" >
+          <div class="square">
+            <div class="content">
+              <p>€€Abordable</p>
+            </div>
+          </div>      
+      </div>
+      <div class="col text-center">
+          <div class="square">
+              <div class="content">
+                   <p> <%= image_tag("beer.svg", :style => 'padding-right: 2 px;') %> Pinte : 5€</p>
+              </div>
+            </div>
+      </div>
+      <div class="col text-center" > 
+          <div class="square">
+              <div class="content">
+                  <p> <%= image_tag("fork.svg", :style => 'padding-right: 5px;') %>Oui</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row align-items-top">
+        <div class="col-2">
+            <h4>Ratings</h4>
+        </div>
+        <div class="col align-top">
+            <div class="well well-lg ">
+              <div class="row ">
+                <span style="font-size:1.2em">
+                    <% 5.times do %>
+                    <%=image_tag "star.svg", style: "width:0.7em; margin-left:-0.15em"%>
+                    <% end %></span>
+                    <p>   (127 Reviews)</p>
+                </div>  
+             </div>
+
+             <% 3.times do %>
+             <div class="well well-lg" style="margin-top:20px">
+                <div class="row" >
+                    <div class="col-2 ">
+                        <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar")%>
+                    </div>
+                    <div class="col" style="margin-top:20px" >
+                        <h5 style="margin-bottom:-5px">Peggy Gou</h5>
+                        <span style="font-size:1.2em">
+                            <% 5.times do %>
+                            <%=image_tag "star.svg", style: "width:0.7em; margin-left:-0.15em"%>
+                            <% end %></span>
+                    </div>
+                </div>  
+                <div class="row">
+                    <p>En fait la felicità c'est comme un cool food market sauce italienne où on fait la teuf en mangeant des trucs bien bons.En fait la felicità c'est comme un cool food marke t sauce italienne où on fait la teuf en mangeant des trucs bien bons.En fait la felicità c'est comme un cool food market sauce italienne où on fait la teuf en mangeant des trucs bien bons. </p>
+                </div>       
+             </div>  
+             <% end %>
+
+          </div>
+        </div>  
+    </div>
+</div>
+
+</br>
+</br>
+</br>
+</br>
+
+

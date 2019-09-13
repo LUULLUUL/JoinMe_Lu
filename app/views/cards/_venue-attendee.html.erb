@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-4"> 
+        <h6>1.2km</h6>
+        <h4>La Felicità</h4>
+        <p>Bibliothèque François Mitterand</br>
+          Ouvert jusqu’à 01:00
+        </p>
+        <a class="btn btn-primary my-primary-gradient" style="border-radius:5em" <%= link_to "STUDIEUX", root_path %></a>
+        <a class="btn btn-primary my-primary-gradient" style="border-radius:5em" <%= link_to "ITALIAN FOOD", root_path %></a>
+        
+        
+     </div>
+
+    <div class="col alignment-middle">
+            <p>En fait la felicità cest comme un cool food market sauce italienne où on fait la teuf en mangeant des trucs bien bons. </p>
+    </div>
+  </div> 
+
+  <div class="row align-items-center">
+    <div class="col">
+        <div class="attendees">
+            <h6><% 5.times do %>
+              <%= image_tag("joinmeP.jpg", alt: "Avatar", class: "avatar2 border")%>  
+              <% end %> et 104 personnes participent.</h6>
+        </div> 
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+ 
